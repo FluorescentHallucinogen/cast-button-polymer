@@ -13,7 +13,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 #cast-button-polymer
-This element renders the cast button and manages it's states.  This button uses polymer for data 
+[Demo](http://googlecast.github.io/cast-button-polymer/demo.html)
+
+This element renders the cast button and manages it's states.  This button uses Polymer for data 
 binding and rendering, to find out more about Polymer take a look at the 
 [Polymer documentation](https://www.polymer-project.org).
 
@@ -28,7 +30,7 @@ Once a cast connection is established the button is overlayed in blue.
 When connected, you can use the CastManager methods to control the casting content.
 
 For a sample of the cast button, take a look at the 
-[CastVideos-material](https://github.com/googlecast/CastVideos-material) sample.
+[CastVideos-chrome-material](https://github.com/googlecast/CastVideos-chrome-material) sample.
 
 #Setup
 Use [Bower](http://bower.io/) to include the cast-button in your web app.  The following command 
