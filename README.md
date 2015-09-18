@@ -12,14 +12,14 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-#cast-button-polymer
+# `cast-button`
 [Demo](http://googlecast.github.io/cast-button-polymer/demo.html)
 
 This element renders the cast button and manages it's states.  This button uses Polymer for data 
 binding and rendering, to find out more about Polymer take a look at the 
 [Polymer documentation](https://www.polymer-project.org).
 
-#Overview
+## Overview
 `cast-button` requires [`cast-manager`](http://github.com/googlecast/cast-manager-polymer).  It 
 uses `cast-manager` properties `cast-available` and 
 `connection-status` to determine if a receiver exists and if it should display as connected.
@@ -33,19 +33,19 @@ When connected, you can use the `cast-manager` methods to control the casting co
 For a sample of the cast button, take a look at the 
 [CastVideos-chrome-material](https://github.com/googlecast/CastVideos-chrome-material) sample.
 
-#Setup
+## Setup
 Use [Bower](http://bower.io/) to include the cast-button in your web app.  The following command 
 will add the cast-button and it's dependencies to your project.
 
     bower install --save googlecast/cast-button-polymer
 
-#Integration
+## Integration
 The easiest way to integrate is to use one of the already provided elements which contain 
 `cast-button` such as `cast-video`.  The instructions below cover a custom integration.  You'll need to 
 first include 
 [Polymer](https://www.polymer-project.org/).
 
-##Including the element
+### Including the element
 In your html include the element.
 
     <link rel="import"
@@ -65,9 +65,9 @@ Add the element to your HTML as a child of `cast-manager` binding the `castAvail
                        color="black"></cast-button>
     </cast-manager>
 
-##Options
+###Options
 
-### Size
+#### Size
 The element uses SVG to render so it can scale to any size.  To specify a size, define 
 `--cast-button-width` and `--cast-button-height`.  If you're defining style in the main document,
  you can use the [`custom-style`](https://www.polymer-project.org/1.0/docs/devguide/styling.html#custom-style) element
@@ -79,7 +79,7 @@ The element uses SVG to render so it can scale to any size.  To specify a size, 
       }
     </style>  
 
-### Color
+#### Color
 The available foreground colors are black or white.  Color is defined as a 
 property of cast-button.
 
