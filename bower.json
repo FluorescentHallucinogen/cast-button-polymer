@@ -2,6 +2,7 @@
   "name": "cast-button-polymer",
   "description": "Cast button built on polymer to simplify Chromecast integration",
   "keywords": [
+    "web-components",
     "cast",
     "polymer"
   ],
